@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #3b3838;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+  }
+
+  .page {
+    width: 600px;
+    margin: 50px auto;
+  }
+
+  p, h1, h2, h3, li, ul, ol {
+      text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+h2 {
+    color:rgb(109, 109, 109)
+}
+
+  #navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 35, 35);
+  }
+  
+  .nav-bar {
+    float: left;
+  }
+  
+  .nav-bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav-bar a:hover {
+    background-color: #111;
+  }
+
+  div {
+    width: fit-content;
+    height: auto;
+    border: 15px solid rgb(109, 109, 109);
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+  }
